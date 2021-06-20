@@ -1,0 +1,14 @@
+{
+  "name": "tp8-mercadoliebretercerocss",
+  "version": "1.0.0",
+  "description": "tp3mercadoliebre",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "octavio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

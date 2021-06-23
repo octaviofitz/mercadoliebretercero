@@ -3,6 +3,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.home .main{
+    width: 90%;
+    align-items: center;
+}
+
 /* header */
 
 .home .logo{
@@ -10,11 +15,12 @@
     margin: 15px 32px 15px;
 }
 
-.home header{
+.home .header{
     background-color: #EAC926;
     margin: 0;
     padding: 0;
-    height: 372px;
+    height: 180px;
+    width: 100%;
 }
 
 .home .barra{
@@ -24,6 +30,7 @@
 .home .compracuotas{
     margin-left: 40px;
     font-size: 12px;
+    margin-bottom: 22px;
 }
 
 .home .lista a{
@@ -38,6 +45,7 @@
     color: black;
     margin-bottom: 30px;
     font-size: 12px;
+    display: none;
     
 }
 
@@ -47,31 +55,75 @@
     background-color: rgb(33, 89, 192);
     color: white;
     border-radius: 4px;
-    font-size: 10px;
+    font-size: 16px;
     padding: 10px 14px;
 }
 
 /* productos */
 
 .home .banner{
-    padding: 30px 5px 20px 0;
-    width: 100%;
+    padding: 0px 5px 20px 0;
+    width: 111%;
+}
+
+.home .basado{
+    margin-left: 28%
+}
+
+.home .oferta{
+    margin-left: 40%;
+}
+
+.home .articulos .imagenproducto{
+    width: 320px;
+}
+
+.home .articulos{
+    background-color: white;
+    width: 110%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.home .articulos .fa-truck{
+  color: #39b54a;
+  border-radius: 50%;
+  border: solid 1px #39b54a;;
+  padding: 4px;
+  margin: 10px 10px 1px ;
+}
+
+.home .articulos .infoproductos{
+    border-top: solid 1px #ebebeb;
+    
+}
+
+.home .articulos .infoproductos p{
+    line-height : 15px;
 }
 
 .home h2{
     font-size: 24px;
 }
 
-.home .precio{
+.home .articulos .precio{
     font-size: 18px;
+    margin-left: 10px;
 }
 
-.home .descuento{
+.home .articulos .descuento{
     font-size: 16px;
+    color: #39b54a;
+    margin-left: 10px;
 }
 
-.home .descripcion{
+.home .articulos .descripcion{
     font-size: 16px;
+    margin-left: 10px;
+    color: #666;
+    font-weight: 400;
+    display: none;
+    
 }
 
 
@@ -79,14 +131,36 @@
 
 .home .footer{
     background-color: white;
-    font-size: 12px;
+    /* font-size: 12px; */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
+.home h2{
+    color: #666;
+}
 
-.home .footer .iconosfooter{
+.home .footer .fa-credit-card{
+    margin-top: 30px;
     color: #1259c3;
     font-size: 2em;
-    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.home .footer .fa-gift{
+    margin-top: 30px;
+    color: #1259c3;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.home .footer .fa-user-shield{
+    margin-top: 30px;
+    color: #1259c3;
+    font-size: 2em;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -95,17 +169,247 @@
     color: #444;
     text-align: center;
     margin-bottom: 0px;
-    font-family: 'Roboto';
 }
 
 .home .footer p{
     margin-right: 20px;
     margin-left: 20px;
     text-align: center;
+    font-size: 12px;
 }
 
 .home .footer .copyright {
     margin-top: 15px;
     margin-left: 10px;
     text-align: left;
+    font-size: 9px;
 }
+
+/* TABLET */
+@media (min-width: 361px) {
+  
+/* header */
+
+    .home .header
+    {
+        height: 450px;
+    }
+
+    .home .logo{
+        width: 300px;
+        margin: 15px 32px 15px;
+    }
+
+
+    .home .compracuotas{
+    margin-left: 40px;
+    font-size: 20px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+
+    .home .lista{
+        display: inline;
+        height: 1200px;
+        font-size: 21px;
+        line-height : 17px;
+
+
+    }
+
+    .home .lista a{
+        margin-left: 12px;
+    }
+
+    .home .burgermenu{
+        display: none;
+    }
+
+
+
+/* banner */
+
+    .home .banner{
+        width: 111.1%;
+        display: inline-block;
+    }
+ 
+/* main */
+
+.home .basado{
+    margin-left: 20%
+}
+
+.home .oferta{
+    margin-left: 45%;
+}
+
+
+.home .articulos .imagenproducto{
+    width: 320px;
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+
+.home .articulos .fa-truck{
+    font-size: 28px;
+    padding: 10px;
+}
+
+.home .articulos .descripcion{
+    display: block;
+    font-size: 28px;
+}
+
+
+.home h2{
+    font-size: 40px;
+}
+
+.home .articulos .precio{
+    font-size: 28px;
+}
+
+.home .articulos .descuento{
+    font-size: 28px;
+}
+
+/* footer */
+
+
+
+.home .footer .fa-credit-card{
+    margin-top: 30px;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+.home .footer .fa-gift{
+    margin-top: 30px;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+.home .footer .fa-user-shield{
+    margin-top: 30px;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+
+.home .footer p{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+
+
+.home .footer .copyright {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+    .home .footer h4{
+    font-size: 22px;
+}
+
+
+
+}
+
+/* DESKTOP */
+@media (min-width:769px) {
+    
+    /* HEADER */
+
+    .home .header
+    {
+        height: 565px;
+    }
+
+    .home .logo{
+        width: 450px;
+    }
+
+
+    .home .compracuotas{
+    font-size: 27px;
+    margin-bottom: 22px;
+}
+
+
+    .home .lista{
+        font-size: 32px;
+        line-height : 18px;
+    }
+
+/* MAIN */    
+
+.home .basado{
+    margin-left: 25%
+}
+
+.home .oferta{
+    margin-left: 45%;
+}
+
+    .home .articulos .fa-truck{
+    font-size: 35px;
+    padding: 14px;
+}
+
+    .home .articulos .infoproductos {
+    text-align: center;
+}
+       
+    .home .articulos .descripcion{
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    
+    .home h2{
+        font-size: 46px;
+    }
+    
+    .home .articulos .precio{
+        font-size: 35px;
+    }
+    
+    .home .articulos .descuento{
+        font-size: 35px;
+    }
+    
+    /* footer */
+    
+    .home .footer .fa-credit-card{
+        font-size: 4.5em;
+    }
+    
+    .home .footer .fa-gift{
+        font-size: 4.5em;
+    }
+    
+    .home .footer .fa-user-shield{
+        font-size: 4.5em;
+    }
+    
+    
+    .home .footer p{
+        font-size: 26px;
+    }
+    
+    .home .footer .copyright {
+        font-size: 22px;
+    }
+    
+    .home .footer h4{
+        font-size: 30px;
+    }
+        
+    }
+

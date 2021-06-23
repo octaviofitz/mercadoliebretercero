@@ -203,7 +203,7 @@
 
     .home .compracuotas{
     margin-left: 40px;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 22px;
     text-align: center;
 }
@@ -212,14 +212,15 @@
     .home .lista{
         display: inline;
         height: 1200px;
-        font-size: 21px;
-        line-height : 17px;
+        /* font-size: 21px */;
+        line-height : 20px;
 
 
     }
 
     .home .lista a{
         margin-left: 12px;
+        font-size: 21px;
     }
 
     .home .burgermenu{
@@ -246,7 +247,7 @@
 }
 
 .home .oferta{
-    margin-left: 45%;
+    margin-left: 40%;
 }
 
 
@@ -286,19 +287,19 @@
 
 .home .footer .fa-credit-card{
     margin-top: 30px;
-    font-size: 3.5em;
+    font-size: 3.2em;
     margin-bottom: 10px;
 }
 
 .home .footer .fa-gift{
     margin-top: 30px;
-    font-size: 3.5em;
+    font-size: 3.2em;
     margin-bottom: 10px;
 }
 
 .home .footer .fa-user-shield{
     margin-top: 30px;
-    font-size: 3.5em;
+    font-size: 3.2em;
     margin-bottom: 10px;
 }
 

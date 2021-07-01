@@ -4,9 +4,11 @@
 }
 
 .home .main{
-    width: 90%;
     align-items: center;
+    width: 90%;
+    margin-left: 15px;
 }
+
 
 /* header */
 
@@ -63,24 +65,24 @@
 
 .home .banner{
     padding: 0px 5px 20px 0;
-    width: 111%;
+    display: none;
 }
 
 .home .basado{
-    margin-left: 28%
+    text-align: center;
 }
 
 .home .oferta{
-    margin-left: 40%;
+    text-align: center;
 }
 
+
 .home .articulos .imagenproducto{
-    width: 320px;
+    width: 100%;
 }
 
 .home .articulos{
     background-color: white;
-    width: 110%;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
@@ -95,7 +97,6 @@
 
 .home .articulos .infoproductos{
     border-top: solid 1px #ebebeb;
-    
 }
 
 .home .articulos .infoproductos p{
@@ -104,6 +105,7 @@
 
 .home h2{
     font-size: 24px;
+
 }
 
 .home .articulos .precio{
@@ -185,9 +187,14 @@
     font-size: 9px;
 }
 
-/* TABLET */
+
 @media (min-width: 361px) {
   
+    .home .main{
+        margin-left: 5vw;
+    }
+
+
 /* header */
 
     .home .header
@@ -196,14 +203,14 @@
     }
 
     .home .logo{
-        width: 300px;
+        width: 250px;
         margin: 15px 32px 15px;
     }
 
 
     .home .compracuotas{
-    margin-left: 40px;
-    font-size: 25px;
+    margin-left: 10px;
+    font-size: 20px;
     margin-bottom: 22px;
     text-align: center;
 }
@@ -232,30 +239,15 @@
 /* banner */
 
     .home .banner{
-        width: 111.1%;
+        width: 111%;
         display: inline-block;
+        margin-left: -5vw;
     }
  
 /* main */
 
 .home .articulos{
     box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
-}
-
-.home .basado{
-    margin-left: 20%
-}
-
-.home .oferta{
-    margin-left: 40%;
-}
-
-
-.home .articulos .imagenproducto{
-    width: 320px;
-    text-align: center;
-    display: block;
-    margin:auto;
 }
 
 .home .articulos .fa-truck{
@@ -268,6 +260,9 @@
     font-size: 28px;
 }
 
+.home .articulos .imagenproducto{
+    width: 100%;
+}
 
 .home h2{
     font-size: 40px;
@@ -328,6 +323,10 @@
 
 /* DESKTOP */
 @media (min-width:769px) {
+
+    .home .main{
+        margin-left: 10vw;
+    }
     
     /* HEADER */
 
@@ -356,11 +355,17 @@
 
 
 .home .basado{
-    margin-left: 25%
+    text-align: center;
+    font-size: 65px;
 }
 
 .home .oferta{
-    margin-left: 45%;
+    text-align: center;
+    font-size: 65px;
+}
+
+.home .articulos{
+    margin: 8vw;
 }
 
     .home .articulos .fa-truck{
@@ -369,12 +374,12 @@
 }
 
     .home .articulos .infoproductos {
-    text-align: center;
+    text-align: left;
 }
        
     .home .articulos .descripcion{
         font-size: 35px;
-        text-align: center;
+        text-align: left;
     }
     
     
